@@ -1,0 +1,244 @@
+<style>
+    table {
+        width: 100%;
+        background-color: #FFFFFF;
+        color: #000000;
+        border-color: #CCCCCC;
+        border-collapse: collapse;
+    }
+    .resp {width: 30%;}
+    .orario{
+        width:5%;
+        text-align: center;
+        font-weight: bold;
+        }
+    .aula{font-style: italic;}
+</style>
+<table border="1" cellspacing="0" cellpadding="5px">
+    <thead> <!-- intestazione -->
+        <tr>
+            <th>Orario</th>
+            <th>Attività</th>
+            <th class="resp">Responsabili e sorveglianza</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr> <!-- Appello -->
+            <td class="orario">7.55</br>8.15</td>
+            <td>Appello in classe</td>
+            <td>Docente della 1 ora</td>
+        </tr>
+        <tr> <!-- Ambientamento studenti -->
+            <td class="orario">8.15</br>8.30</td>
+            <td colspan="2">Ambientamento studenti e preparazione attività</td>
+        </tr>
+        <!--
+            PRIMA PARTE DELLA MATTINA
+        -->
+        <tr> <!-- Attività carabinieri -->
+            <td class="orario" rowspan=8>8.30</br>10.15</td>
+            <td>
+                Indossa il tuo futuro</br>
+                <a class="aula"></a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Lab. chimica -->
+            <td>
+                Laboratorio radiazioni luminose</br>
+                <a class="aula">Laboratorio di chimica</a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b> Prezzi, Leocata
+            </td>
+        </tr>
+
+        <tr> <!-- Lab. fisica -->
+            <td>
+                Esperimenti di magnetismo ed elettromagnetismo</br>
+                <a class="aula">Laboratorio di fisica</a>
+            </td>
+            <td>
+                <b>Studente:</b> Giacomo Gobbi<br>
+                <b>Docente:</b> Somenzi, Gatti
+            </td>
+        </tr>
+
+        <tr> <!-- Film 1 -->
+            <td>
+                Film: Titolo</br>
+                <a class="aula"></a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Film 2 -->
+            <td>
+                Film: Titolo2</br>
+                <a class="aula"></a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Aula giochi tavolo -->
+            <td>
+                Aula giochi da tavolo</br>
+                <a class="aula"></a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Aula studio -->
+            <td>
+                Aula studio individuale assistito</br>
+                <a class="aula"></a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Corso Unity -->
+            <td>
+                Corso Unity</br>
+                <a class="aula">INFO 3</a>
+            </td>
+            <td>
+                <b>Studente:</b> Federico Potrich, Alexander Pardatscher, Alisia Wegher, Cristian Zeni
+                  <br>
+                <b>Docente:</b> Sannicolò
+            </td>
+        </tr>
+        
+        <tr style="background-color: lightgreen;"> <!-- Ricreazione -->
+            <td class="orario">10.15</br>10.30</td>
+            <td colspan="2" id>Ricreazione</td>
+        </tr>
+        <!--
+            SECONDA PARTE DELLA MATTINA
+        -->
+        <tr> <!-- UniTN -->
+            <td class="orario" rowspan=11>10.30</br>12.55</td>
+            <td>In pista con UniTrento</br>
+                <a class="aula">Teatro</a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Torneo calcio -->
+            <td>Torneo calcio</br>
+                <a class="aula">Campo da calcio</a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Attività palestra -->
+            <td>Sport: basket, pallavolo, badmintong</br>
+                <a class="aula">Palestra</a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+        
+        <tr> <!-- Lab. chimica -->
+            <td>
+                Laboratorio radiazioni luminose</br>
+                <a class="aula">Laboratorio di chimica</a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b> Prezzi, Leocata
+            </td>
+        </tr>
+        
+        <tr> <!-- Torneo calcio balilla -->
+            <td>Torneo calcio balilla autogestito</br>
+                <a class="aula"></a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Film 1 -->
+            <td>
+                Film: Titolo</br>
+                <a class="aula"></a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Film 2 -->
+            <td>
+                Film: Titolo2</br>
+                <a class="aula"></a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Aula autogestita -->
+            <td>
+                Aula autogestita per attivià</br>
+                <a class="aula"></a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Aula studio -->
+            <td>
+                Aula studio indivisuale assistito</br>
+                <a class="aula"></a>
+            </td>
+            <td>
+                <b>Studente:</b> <br>
+                <b>Docente:</b>
+            </td>
+        </tr>
+
+        <tr> <!-- Corso Unity -->
+            <td>
+                Corso Unity</br>
+                <a class="aula">INFO 3</a>
+            </td>
+            <td>
+                <b>Studente:</b> Federico Potrich, Alexander Pardatscher, Alisia Wegher, Cristian Zeni
+                  <br>
+                <b>Docente:</b> Sannicolò
+            </td>
+        </tr>
+    </tbody>
+</table>
